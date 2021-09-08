@@ -1,6 +1,6 @@
 #记得检查更新！！！
 #pip install requests
-#test 1
+
 
 lang=input("输入CN使用中文界面\ntype EN to use english interface:")
 import requests

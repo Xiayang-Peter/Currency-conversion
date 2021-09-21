@@ -1,7 +1,7 @@
 #记得检查更新！！！
 #pip install requests
 
-
+#Cli编写测试
 lang=input("输入CN使用中文界面\ntype EN to use english interface:")
 import requests
 url= 'https://v6.exchangerate-api.com/v6/c24594258bb5eec9b26a0950/pair/NZD/CNY' # api所在url

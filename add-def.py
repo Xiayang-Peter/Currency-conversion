@@ -26,3 +26,12 @@ try:
 except:
     print("api数据错误")
 """
+
+def apiimport():
+    import requests
+    url= 'https://v6.exchangerate-api.com/v6/c24594258bb5eec9b26a0950/pair/NZD/CNY' # api所在url
+    response = requests.get(url)    # 从url获取并赋值data
+    dataO1 = response.json()  # 从url获取并赋值data
+    print(dataO1)
+
+
